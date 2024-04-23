@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>How to make the images bigger when clicked?</title>
+    <style>
+        .container {
+            width: 30%;
+            height: auto;
+            text-align: center;
+            margin-top: 5em;
+        }
+
+        #img1 {
+            transform: scale(0.7); /* Initial scale of 0.7 to shrink the image */
+            transition: transform 0.25s ease;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div>
+    <div class="container">
+        <!-- Image to be enlarged and onclick() function call-->
+        <img src="LUFFY4.jpg" onclick="enlargeImg()" id="img1" />
+        <br /><br /><br />
+        <!-- Button to reset the Image size -->
+        <button onclick="resetImg()">Reset</button>
+    </div>
+    <div>
+        <img src="SUNDANCE.jpg" onclick="enlargeImg" id="img2">
+    </div>
+</div>
+
+ 
+    <!-- script to set display property -->
+    <script>
+        // Get the img object using its Id
+        var img = document.getElementById("img1");
+      
+        // Function to increase image size
+        function enlargeImg() {
+            // Set image size to 1.5 times original
+            img.style.transform = "scale(1)";
+            // Animation effect
+            img.style.transition = "transform 0.25s ease";
+        }
+        // Function to reset image size
+        function resetImg() {
+            // Set image size to original
+            img.style.transform = "scale(0.7)"; /* Adjust to the initial scale */
+            img.style.transition = "transform 0.25s ease";
+        }
+    </script>
+</body>
+</html>
