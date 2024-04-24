@@ -5,76 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art Portfolio</title>
     <style>
-       body {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-          margin: 0;
-          font-family: Arial, sans-serif;
-       }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .GridContainer {
+            display: grid;
+            grid-template-columns: repeat(3, 300px);
+            grid-auto-rows: 350px;
+            gap: 45px;
+        }
 
-       .GridContainer {
-          display: grid;
-          grid-template-columns: repeat(3, 300px);
-          grid-auto-rows: 350px;
-          gap: 45px;
-       }
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+        }
 
-       .grid-item {
-          position: relative;
-          overflow: hidden;
-       }
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
 
-       .grid-item img {
-          width: 100%;
-          display: block;
-          transition: scale 0.3s ease;
-       }
+        .grid-item:hover img {
+            transform: scale(1.2); /* Zoom effect */
+        }
 
-       .grid-item::before {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(255, 255, 255, 0);
-          transition: background-color 0.3s ease;
-       }
+        .grid-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0); /* Initially transparent */
+            transition: background-color 0.3s ease;
+        }
 
-       .grid-item:hover::before {
-          background-color: rgba(255, 255, 255, 0.5); /* Change the highlight color here */
-       }
+        .grid-item:hover::before {
+            background-color: rgba(255, 255, 255, 0.5); /* White overlay on hover */
+        }
 
-       h1 {
-          position: absolute;
-          top: 20px;
-          left: 50%;
-          transform: translateX(-50%);
-          z-index: 1;
-       }
-
-       img {
-          scale: .7; /* Initial scale of 0.7 to shrink the image */
-          transition: scale 0.25s ease;
-          cursor: pointer;
-       }
-
-       img.enlarged {
-          scale: 1;
-       }
+        h1 {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
     <h1>This is my Art Portfolio</h1>
-
     <div class="GridContainer">
         <div class="grid-item">
-            <img src="LUFFY4.jpg" onclick="enlargeImg()" id="img1" />
+            <img src="LUFFY4.jpg" id="img1" />
         </div>
         <div class="grid-item">
-            <img src="SUNDANCE.jpg" onclick="enlargeImg()" id="img2">
+            <img src="SUNDANCE.jpg" id="img2">
         </div>
         <div class="grid-item">
             <img src="Illustration52.jpg" onclick="toggleImageSize(this)">
