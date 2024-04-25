@@ -8,7 +8,7 @@ Hi there! I'm [Your Name], an aspiring artist passionate about expressing myself
 
 ## 🌟 Contact Me
 
-- Email: [your@email.com](mailto:your@email.com)
+- Email: [Ismael.gala.fong@gmail.com](mailto:Ismael.gala.fong@gmail.com)
 - Portfolio Website: [www.yourwebsite.com](http://www.yourwebsite.com)
 - Instagram: [@your_instagram_handle](https://www.instagram.com/your_instagram_handle/)
 
