@@ -6,7 +6,7 @@ Welcome to my art portfolio! Here, you'll find a collection of my creative works
 
 ### Paintings
 - **Title of Painting 1**
-  ![Painting 1](link/to/painting1.jpg)
+  ![Painting 1](LUFFY4.jpg)
   Description: A brief description of the painting.
 
 - **Title of Painting 2**
