@@ -2,26 +2,6 @@
 
 Welcome to my art portfolio! Here, you'll find a collection of my creative works ranging from paintings to digital art and more. Feel free to explore and get inspired! 
 
-## 🖼️ Gallery
-
-### Paintings
-- **Title of Painting 1**
-  ![Painting 1](https://github.com/iishee/Art-Portfolio/blob/main/LUFFY4.jpg)
-  Description: A brief description of the painting.
-
-- **Title of Painting 2**
-  ![Painting 2](link/to/painting2.jpg)
-  Description: A brief description of the painting.
-
-### Digital Art
-- **Title of Digital Artwork 1**
-  ![Digital Artwork 1](link/to/digitalart1.jpg)
-  Description: A brief description of the digital artwork.
-
-- **Title of Digital Artwork 2**
-  ![Digital Artwork 2](link/to/digitalart2.jpg)
-  Description: A brief description of the digital artwork.
-
 ## 🎨 About the Artist
 
 Hi there! I'm [Your Name], an aspiring artist passionate about expressing myself through various mediums. Art has always been my way of communicating thoughts, emotions, and stories.
