@@ -6,7 +6,7 @@ Welcome to my art portfolio! Here, you'll find a collection of my creative works
 
 ### Paintings
 - **Title of Painting 1**
-  ![Painting 1](Art/mob.jpg)
+  ![Painting 1](Main/Art/mob.jpg)
   Description: A brief description of the painting.
 
 - **Title of Painting 2**
